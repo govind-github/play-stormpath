@@ -1,4 +1,9 @@
-This is your new Play application
+This is a sample of integrating stormpath with play framework
 =================================
 
-This file will be packaged with your application, when using `activator dist`.
+java------------>1.8
+scala----------->2.11.1
+play framework-->2.3.8
+
+
+and this is my first github project
