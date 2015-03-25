@@ -1,0 +1,2 @@
+apiKey.id = 76UEG1ZZ4SA94A9P08WW4OZQN
+apiKey.secret = /x6/sxgexX1zrThL3YLW+XrTyZbUWIf6S1trrz6yeqM
