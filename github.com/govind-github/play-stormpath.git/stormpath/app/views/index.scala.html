@@ -1,26 +1,5 @@
 @(message: String)
 
 @main("Welcome to Play") {
-
-    <form accept-charset="UTF-8" action="https://core.spreedly.com/v1/payment_methods" method="POST">
- <fieldset>
-  <input name="redirect_url" type="hidden" value="http://clicktable.com" />
-  <input name="environment_key" type="hidden" value="Ot4E8JMAicTMU6MPDA9NSwpDIZT" />
-   <input name="utf8" type="hidden" value="✓" /> 
-   <label for="credit_card_first_name">First name</label>
-    <input id="credit_card_first_name" name="credit_card[first_name]" type="text" value="pawan" /><br/>
-     <label for="credit_card_last_name">Last name</label>
-      <input id="credit_card_last_name" name="credit_card[last_name]" type="text" value="singh" /><br/>
-       <label for="credit_card_number">Card Number</label>
-        <input autocomplete="off" id="credit_card_number" name="credit_card[number]" type="text" value="4111111111111111"/><br/> 
-        <label for="credit_card_verification_value">Security Code</label>
-         <input autocomplete="off" id="credit_card_verification_value" name="credit_card[verification_value]" type="text" value="100" /><br/>
-          <label for="credit_card_month">Expires on</label>
-           <input id="credit_card_month" name="credit_card[month]" type="text" value="12" /> <input id="credit_card_year" name="credit_card[year]" type="text" value="16" />
-           <br/>
-            <button type='submit'>Submit Payment</button> 
-  </fieldset> 
- </form>
-
-
+	
 }
